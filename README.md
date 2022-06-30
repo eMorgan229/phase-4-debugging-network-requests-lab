@@ -63,11 +63,15 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  I looked in the rails terminal: when I say "unintialized constant" error, I know it was in the create action: it was just a typo: "Toy".create singular instead of plural.
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  again looked at the update action and added the if/else statement and adjusted typos
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  looked at the rails terminal and noticed there was not route associated with the destroy action and added it
